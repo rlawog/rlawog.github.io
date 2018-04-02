@@ -1,0 +1,30 @@
+<!doctype html> <!-- timetable.html-->
+<html lang="ko">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<style>table,thead,tbody,tfoot,tr,th,td {
+  border:1px solid black; border-collapse:collapse;
+}
+</style><!--  border-collapse:collapse 단선으로,반대는 separate -->
+<title>HTML5 테이블 테스트 실습 </title></head>
+<body>
+ <table>
+ <caption><b>20171350 김재혁</b></caption>
+ <thead>
+ <tr><th rowspan="2">-</th> <th rowspan="2">월요일</th> <th rowspan="2">화요일</th>
+  <th rowspan="2">수요일</th></tr>
+  <tr>                                           <th>목요일</th><th>금요일</th></tr>
+ </thead>
+ <tbody>
+ <tr><td>9시</td><td>-</td><td>-</td><td rowspan="2">자료구조및실습</td><td>-</td><td>------------------</td></tr>
+ <tr><td>10시</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+ <tr><td>11시</td><td rowspan="2">디지털논리회로</td><td rowspan="2">자료구조및실습</td><td>-</td><td rowspan="2">인터넷프로그래밍</td><td>-</td></tr>
+ <tr><td>12시</td><td rowspan="2">인터넷프로그래밍</td><td>-</td></tr>
+ <tr><td>1시</td><td rowspan="2">영어회화1</td><td>디지털논리회로</td><td>-</td><td>-</td></tr>
+ <tr><td>2시</td><td rowspan="4">c++프로그래밍</td><td>-</td><td>-</td><td>-</td></tr>
+ <tr><td>3시</td><td rowspan="3">긍정심리학</td><td>-</td><td rowspan="2">컴퍼스멘토링</td><td>-</td></tr>
+ <tr><td>4시</td><td>-</td><td>-</td></tr>
+ <tr><td>5시</td><td>-</td><td>-</td><td>-</td></tr>
+ <tr><td>6시</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+</tbody>
+
+</table></body></html>
