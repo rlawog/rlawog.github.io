@@ -3,9 +3,19 @@
 <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <style>table,thead,tbody,tfoot,tr,th,td {
   border:1px solid black; border-collapse:collapse;
+  
 }
 </style><!--  border-collapse:collapse 단선으로,반대는 separate -->
-<title>HTML5 테이블 테스트 실습 </title></head>
+<title>HTML 시간표 만들기 </title></head>
+<style>
+.subject1 {background-color:pink;}
+.subject2 {background-color:yellow;}
+.subject3 {background-color:lightgreen;}
+.subject4 {background-color:lightblue;}
+.subject5 {background-color:lightyellow;}
+.subject6 {background-color:khaki;}
+.subject7 {background-color:violet;}
+</style>
 <body>
  <table>
  <caption><b>20171350 김재혁</b></caption>
@@ -15,13 +25,13 @@
   <tr>                                           <th>목요일</th><th>금요일</th></tr>
  </thead>
  <tbody>
- <tr><td>9시</td><td></td><td></td><td rowspan="2">자료구조및실습</td><td></td><td>------------------</td></tr>
+ <tr><td>9시</td><td></td><td></td><td rowspan="2" class="subject1">자료구조및실습</td><td></td><td>------------------</td></tr>
  <tr><td>10시</td><td></td><td></td><td></td><td></td></tr>
- <tr><td>11시</td><td rowspan="2">디지털논리회로</td><td rowspan="2">자료구조및실습</td><td></td><td rowspan="2">인터넷프로그래밍</td><td></td></tr>
- <tr><td>12시</td><td rowspan="2">인터넷프로그래밍</td><td></td></tr>
- <tr><td>1시</td><td rowspan="2">영어회화1</td><td>디지털논리회로</td><td></td><td></td></tr>
- <tr><td>2시</td><td rowspan="4">c++프로그래밍</td><td></td><td></td><td></td></tr>
- <tr><td>3시</td><td rowspan="3">긍정심리학</td><td></td><td rowspan="2">컴퍼스멘토링</td><td></td></tr>
+ <tr><td>11시</td><td rowspan="2" class="subject2">디지털논리회로</td><td rowspan="2" class="subject1">자료구조및실습</td><td></td><td rowspan="2" class="subject6">인터넷프로그래밍</td><td></td></tr>
+ <tr><td>12시</td><td rowspan="2" class="subject6">인터넷프로그래밍</td><td></td></tr>
+ <tr><td>1시</td><td rowspan="2" class="subject3">영어회화1</td><td class="subject2">디지털논리회로</td><td></td><td></td></tr>
+ <tr><td>2시</td><td rowspan="4" class="subject5">c++프로그래밍</td><td></td><td></td><td></td></tr>
+ <tr><td>3시</td><td rowspan="3" class="subject4">긍정심리학</td><td></td><td rowspan="2" class="subject7">컴퍼스멘토링</td><td></td></tr>
  <tr><td>4시</td><td></td><td></td></tr>
  <tr><td>5시</td><td></td><td></td><td></td></tr>
  <tr><td>6시</td><td></td><td></td><td></td><td></td><td></td></tr>
